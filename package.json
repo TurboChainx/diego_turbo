@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -H 0.0.0.0", 
+    "dev": "next dev -H 0.0.0.0 --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --fix && tsc --noEmit", 
-    "format": "prettier --write ." 
+    "lint": "bunx biome lint --write && bunx tsc --noEmit",
+    "format": "bunx biome format --write"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.11",
@@ -15,7 +15,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.475.0",
-    "next": "^13.4.4", 
+    "next": "^15.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "stripe": "^18.2.1",
@@ -33,7 +33,6 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
-    "bippy": "^0.3.16",
-    "prettier": "^2.5.0" 
+    "bippy": "^0.3.16"
   }
 }

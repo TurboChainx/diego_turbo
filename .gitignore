@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+
+# Bun lock file
+bun.lock
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js build output
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Build outputs
+dist/
+build/
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Netlify
+.netlify/
+
+# Archives & compressed files
+*.zip
+*.tar.gz
+
+# Custom/Specific
+spectrespoofer-source.tar.gz
+SpectreSpoofer-Update.zip
